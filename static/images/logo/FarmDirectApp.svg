@@ -1,0 +1,9 @@
+<svg width="200" height="50" xmlns="http://www.w3.org/2000/svg">
+    <style>
+        .text { font-family: Arial, sans-serif; font-size: 24px; fill: #0AAD0A; }
+        .highlight { fill: #21313C; font-weight: bold; }
+    </style>
+    <text x="10" y="30" class="text">
+        <tspan class="highlight">Farm</tspan>DirectApp
+    </text>
+</svg>
