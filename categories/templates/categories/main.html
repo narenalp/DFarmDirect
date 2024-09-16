@@ -1,9 +1,10 @@
+{% load static %}
 <main>
    <section class="mt-8">
       <div class="container">
          <div class="hero-slider">
             <div
-               style="background: url(../static/images/slider/slide-1.jpg) no-repeat; background-size: cover; border-radius: 0.5rem; background-position: center">
+               style="background: url({% static 'categories/images/slider/slide-1.jpg' %}) no-repeat; background-size: cover; border-radius: 0.5rem; background-position: center">
                <div
                   class="ps-lg-12 py-lg-16 col-xxl-5 col-md-7 py-14 px-8 text-xs-center">
                   <span class="badge text-bg-warning">Opening Sale
@@ -20,7 +21,7 @@
                </div>
             </div>
             <div
-               style="background: url(../static/images/slider/slider-2.jpg) no-repeat; background-size: cover; border-radius: 0.5rem; background-position: center">
+               style="background: url({% static 'categories/images/slider/slider-2.jpg' %}) no-repeat; background-size: cover; border-radius: 0.5rem; background-position: center">
                <div
                   class="ps-lg-12 py-lg-16 col-xxl-5 col-md-7 py-14 px-8 text-xs-center">
                   <span class="badge text-bg-warning">Free Shipping -
@@ -43,7 +44,7 @@
       </div>
    </section>
 
-      {% include 'category.html' %}
+      {% include 'categories/category.html' %}
     
    </main>
    <!-- Category Section End-->
@@ -53,7 +54,7 @@
             <div class="col-12 col-md-6 mb-3 mb-lg-0">
                <div>
                   <div class="py-10 px-8 rounded"
-                     style="background: url(../static/images/banner/grocery-banner.png) no-repeat; background-size: cover; background-position: center">
+                     style="background: url({% static 'categories/images/banner/grocery-banner.png' %}) no-repeat; background-size: cover; background-position: center">
                      <div>
                         <h3 class="fw-bold mb-1">Fruits & Vegetables</h3>
                         <p class="mb-4">
@@ -69,7 +70,7 @@
             <div class="col-12 col-md-6">
                <div>
                   <div class="py-10 px-8 rounded"
-                     style="background: url(../static/images/banner/grocery-banner-2.jpg) no-repeat; background-size: cover; background-position: center">
+                     style="background: url({% static 'categories/images/banner/grocery-banner-2.jpg' %}) no-repeat; background-size: cover; background-position: center">
                      <div>
                         <h3 class="fw-bold mb-1">Freshly Baked Buns</h3>
                         <p class="mb-4">
@@ -85,7 +86,7 @@
          </div>
       </div>
    </section>
-   {% include 'popularproducts.html' %}
+   {% include 'categories/popularproducts.html' %}
    <section>
       <div class="container">
          <div class="row">
@@ -98,7 +99,7 @@
                class="row row-cols-lg-4 row-cols-1 row-cols-md-2 g-4 flex-nowrap">
                <div class="col">
                   <div class="pt-8 px-6 px-xl-8 rounded"
-                     style="background: url(../static/images/banner/banner-deal.jpg) no-repeat; background-size: cover; height: 470px">
+                     style="background: url({% static 'categories/images/banner/banner-deal.jpg' %}) no-repeat; background-size: cover; height: 470px">
                      <div>
                         <h3 class="fw-bold text-white">100% Organic Coffee
                            Beans.</h3>
@@ -117,7 +118,7 @@
                      <div class="card-body">
                         <div class="text-center position-relative">
                            <a href="./pages/shop-single.html"><img
-                                 src="../static/images/products/product-img-11.jpg"
+                                 src="{% static 'categories/images/products/product-img-11.jpg' %}"
                                  alt="Grocery Ecommerce Template"
                                  class="mb-3 img-fluid" /></a>
 
@@ -202,7 +203,7 @@
                      <div class="card-body">
                         <div class="text-center position-relative">
                            <a href="./pages/shop-single.html"><img
-                                 src="../static/images/products/product-img-12.jpg"
+                                 src="{% static 'categories/images/products/product-img-12.jpg' %}"
                                  alt="Grocery Ecommerce Template"
                                  class="mb-3 img-fluid" /></a>
                            <div class="card-product-action">
@@ -285,7 +286,7 @@
                      <div class="card-body">
                         <div class="text-center position-relative">
                            <a href="./pages/shop-single.html"><img
-                                 src="../static/images/products/product-img-13.jpg"
+                                 src="{% static 'categories/images/products/product-img-13.jpg' %}"
                                  alt="Grocery Ecommerce Template"
                                  class="mb-3 img-fluid" /></a>
                            <div class="card-product-action">
@@ -373,7 +374,7 @@
             <div class="col-md-6 col-lg-3">
                <div class="mb-8 mb-xl-0">
                   <div class="mb-6"><img
-                        src="../static/images/icons/clock.svg" alt /></div>
+                        src="{% static 'categories/images/icons/clock.svg" alt /></div>
                   <h3 class="h5 mb-3">10 minute grocery now</h3>
                   <p>Get your order delivered to your doorstep at the
                      earliest from FreshCart pickup stores near you.</p>
@@ -382,7 +383,7 @@
             <div class="col-md-6 col-lg-3">
                <div class="mb-8 mb-xl-0">
                   <div class="mb-6"><img
-                        src="../static/images/icons/gift.svg" alt /></div>
+                        src="{% static 'categories/images/icons/gift.svg" alt /></div>
                   <h3 class="h5 mb-3">Best Prices & Offers</h3>
                   <p>Cheaper prices than your local supermarket, great
                      cashback offers to top it off. Get best pricess &
@@ -392,7 +393,7 @@
             <div class="col-md-6 col-lg-3">
                <div class="mb-8 mb-xl-0">
                   <div class="mb-6"><img
-                        src="../static/images/icons/package.svg" alt /></div>
+                        src="{% static 'categories/images/icons/package.svg" alt /></div>
                   <h3 class="h5 mb-3">Wide Assortment</h3>
                   <p>Choose from 5000+ products across food, personal
                      care, household, bakery, veg and non-veg & other
@@ -402,7 +403,7 @@
             <div class="col-md-6 col-lg-3">
                <div class="mb-8 mb-xl-0">
                   <div class="mb-6"><img
-                        src="../static/images/icons/refresh-cw.svg"
+                        src="{% static 'categories/images/icons/refresh-cw.svg"
                         alt /></div>
                   <h3 class="h5 mb-3">Easy Returns</h3>
                   <p>

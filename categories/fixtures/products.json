@@ -1,0 +1,110 @@
+[
+  {
+    "model": "categories.product",
+    "pk": 1,
+    "fields": {
+      "name": "Milk",
+      "image": "categories/images/products/product-milk.jpg",
+      "category": 9
+    }
+  },
+  {
+    "model": "categories.product",
+    "pk": 2,
+    "fields": {
+      "name": "Cheese",
+      "image": "categories/images/products/product-cheese.jpg",
+      "category": 9
+    }
+  },
+  {
+    "model": "categories.product",
+    "pk": 3,
+    "fields": {
+      "name": "Carrots",
+      "image": "categories/images/products/product-carrots.jpg",
+      "category": 8
+    }
+  },
+  {
+    "model": "categories.product",
+    "pk": 4,
+    "fields": {
+      "name": "Spinach",
+      "image": "categories/images/products/product-spinach.jpg",
+      "category": 8
+    }
+  },
+  {
+    "model": "categories.product",
+    "pk": 5,
+    "fields": {
+      "name": "Apples",
+      "image": "categories/images/products/product-apples.jpg",
+      "category": 10
+    }
+  },
+  {
+    "model": "categories.product",
+    "pk": 6,
+    "fields": {
+      "name": "Bananas",
+      "image": "categories/images/products/product-bananas.jpg",
+      "category": 10
+    }
+  },
+  {
+    "model": "categories.product",
+    "pk": 7,
+    "fields": {
+      "name": "Wheat",
+      "image": "categories/images/products/product-wheat.jpg",
+      "category": 11
+    }
+  },
+  {
+    "model": "categories.product",
+    "pk": 8,
+    "fields": {
+      "name": "Rice",
+      "image": "categories/images/products/product-rice.jpg",
+      "category": 11
+    }
+  },
+  {
+    "model": "categories.product",
+    "pk": 9,
+    "fields": {
+      "name": "Cows",
+      "image": "categories/images/products/product-cows.jpg",
+      "category": 12
+    }
+  },
+  {
+    "model": "categories.product",
+    "pk": 10,
+    "fields": {
+      "name": "Sheep",
+      "image": "categories/images/products/product-sheep.jpg",
+      "category": 12
+    }
+  },
+  {
+    "model": "categories.product",
+    "pk": 11,
+    "fields": {
+      "name": "Roses",
+      "image": "categories/images/products/product-roses.jpg",
+      "category": 7
+    }
+  },
+  {
+    "model": "categories.product",
+    "pk": 12,
+    "fields": {
+      "name": "Tulips",
+      "image": "categories/images/products/product-tulips.jpg",
+      "category": 7
+    }
+  }
+]

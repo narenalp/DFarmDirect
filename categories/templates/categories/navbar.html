@@ -1,3 +1,4 @@
+{% load static %}
 <!--Navbar-->
 <div class="border-bottom ">
   <div class="bg-light py-1">
@@ -8,7 +9,7 @@
         </div>
         <div class="col-6 text-end d-none d-md-block">
           <div class="dropdown">
-            <a class="dropdown-toggle text-decoration-none  text-muted" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            <a class="dropdown-toggle text-decoration-none  text-muted" href="categories/home.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">
               <span class="me-1">
                 <svg width="16" height="13" viewBox="0 0 16 13" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <g clip-path="url(#selectedlang)">
@@ -31,7 +32,7 @@
               </span>English
             </a>
             <ul class="dropdown-menu">
-              <li><a class="dropdown-item " href="#"><span class="me-2">
+              <li><a class="dropdown-item " href="categories/home.html"><span class="me-2">
                         <svg width="16" height="13" viewBox="0 0 16 13" xmlns="http://www.w3.org/2000/svg">
                           <!-- Orange (Saffron) Stripe -->
                           <rect width="16" height="4.33" fill="#FF9933"/>
@@ -64,7 +65,7 @@
                           <line x1="7.5" y1="4.5" x2="7.5" y2="8.5" stroke="#000080" stroke-width="0.2"/>
                         </svg>
                   </span>Hindi</a></li>
-              <li><a class="dropdown-item " href="#">
+              <li><a class="dropdown-item " href="categories/gujarati/home.html">
                   <span class="me-2">
                         <svg width="16" height="13" viewBox="0 0 16 13" xmlns="http://www.w3.org/2000/svg">
                           <!-- Blue Stripe -->
@@ -89,20 +90,15 @@
       <div class="row w-100 align-items-center gx-lg-2 gx-0">
         <div class="col-xxl-2 col-lg-3">
           <a class="navbar-brand d-none d-lg-block" href="/">
-            <img src="../../static/images/logo/freshcart-logo.svg" alt="eCommerce HTML Template">
-
+            <img src="{% static 'categories/images/logo/freshcart-logo.svg' %}" alt="eCommerce HTML Template">
           </a>
           <div class="d-flex justify-content-between w-100 d-lg-none">
             <a class="navbar-brand" href="/">
-              <img src="../../static/images/logo/freshcart-logo.svg" alt="eCommerce HTML Template">
-
+              <img src="{% static 'categories/images/logo/freshcart-logo.svg' %}" alt="eCommerce HTML Template">
             </a>
-
-            <div class="d-flex align-items-center lh-1">
-
+          <div class="d-flex align-items-center lh-1">
               <div class="list-inline me-4">
                 <div class="list-inline-item">
-
                   <a href="#!" class="text-muted" data-bs-toggle="modal" data-bs-target="#userModal">
                     <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none"
                       stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
@@ -220,10 +216,6 @@
 
             </div>
 
-
-
-
-
           </div>
         </div>
       </div>
@@ -236,7 +228,7 @@
 
       <div class="offcanvas offcanvas-start" tabindex="-1" id="navbar-default" aria-labelledby="navbar-defaultLabel">
         <div class="offcanvas-header pb-1">
-          <a href="/"><img src="../../static/images/logo/freshcart-logo.svg" alt="eCommerce HTML Template"></a>
+          <a href="/"><img src="{% static 'categories/images/logo/freshcart-logo.svg' %}" alt="eCommerce HTML Template"></a>
           <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
         </div>
         <div class="offcanvas-body">
@@ -400,7 +392,7 @@
                     </div>
                     <div class="col-lg-3 col-12 mb-4 mb-lg-0">
                       <div class="card border-0">
-                        <img src="../../static/images/banner/menu-banner.jpg" alt="eCommerce HTML Template"
+                        <img src="{% static 'categories/images/banner/menu-banner.jpg' %}" alt="eCommerce HTML Template"
                           class="img-fluid">
                         <div class="position-absolute ps-6 mt-8">
                           <h5 class=" mb-0 ">Dont miss this <br>offer today.</h5>
@@ -504,7 +496,7 @@
 
 </div>
 
-{% include 'login.html' %}
+{% include 'categories/login.html' %}
 
-{% include 'location.html' %}
+{% include 'categories/location.html' %}
 <script src="../static/js/vendors/validation.js"></script>
