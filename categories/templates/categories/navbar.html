@@ -1,15 +1,16 @@
 {% load static %}
+{% load i18n %}
 <!--Navbar-->
 <div class="border-bottom ">
   <div class="bg-light py-1">
     <div class="container">
       <div class="row">
-        <div class="col-md-6 col-12 text-center text-md-start"><span> Super Value Deals - Save more with
+        <div class="col-md-6 col-12 text-center text-md-start"><span> {% translate Super Value Deals - Save more with %}
             coupons</span>
         </div>
         <div class="col-6 text-end d-none d-md-block">
           <div class="dropdown">
-            <a class="dropdown-toggle text-decoration-none  text-muted" href="categories/home.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            <a class="dropdown-toggle text-decoration-none  text-muted" href="/en-us/" role="button" data-bs-toggle="dropdown" aria-expanded="false">
               <span class="me-1">
                 <svg width="16" height="13" viewBox="0 0 16 13" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <g clip-path="url(#selectedlang)">
@@ -32,53 +33,13 @@
               </span>English
             </a>
             <ul class="dropdown-menu">
-              <li><a class="dropdown-item " href="categories/home.html"><span class="me-2">
-                        <svg width="16" height="13" viewBox="0 0 16 13" xmlns="http://www.w3.org/2000/svg">
-                          <!-- Orange (Saffron) Stripe -->
-                          <rect width="16" height="4.33" fill="#FF9933"/>
-                          <!-- White Stripe -->
-                          <rect y="4.33" width="16" height="4.33" fill="#FFFFFF"/>
-                          <!-- Green Stripe -->
-                          <rect y="8.67" width="16" height="4.33" fill="#138808"/>
+              {% get_current_language as LANGUAGE_CODE %}
+              {% get_available_languages as LANGUAGES %}
+              {% get_language_info_list for LANGUAGES as languages %}
 
-                          <!-- Ashoka Chakra -->
-                          <circle cx="8" cy="6.5" r="1.6" fill="#000080"/>
-                          <circle cx="8" cy="6.5" r="1.5" fill="#FFFFFF"/>
-
-                          <!-- 24 Spokes of Ashoka Chakra -->
-                          <line x1="8" y1="4.5" x2="8" y2="8.5" stroke="#000080" stroke-width="0.2"/>
-                          <line x1="4.5" y1="6.5" x2="11.5" y2="6.5" stroke="#000080" stroke-width="0.2"/>
-
-                          <line x1="6.8" y1="4.9" x2="9.2" y2="8.1" stroke="#000080" stroke-width="0.2"/>
-                          <line x1="6.8" y1="8.1" x2="9.2" y2="4.9" stroke="#000080" stroke-width="0.2"/>
-
-                          <line x1="6.5" y1="5.8" x2="9.5" y2="7.2" stroke="#000080" stroke-width="0.2"/>
-                          <line x1="6.5" y1="7.2" x2="9.5" y2="5.8" stroke="#000080" stroke-width="0.2"/>
-
-                          <line x1="7.2" y1="4.5" x2="8.8" y2="8.5" stroke="#000080" stroke-width="0.2"/>
-                          <line x1="7.2" y1="8.5" x2="8.8" y2="4.5" stroke="#000080" stroke-width="0.2"/>
-
-                          <line x1="4.9" y1="6.2" x2="11.1" y2="6.2" stroke="#000080" stroke-width="0.2"/>
-                          <line x1="6.2" y1="4.9" x2="6.2" y2="11.1" stroke="#000080" stroke-width="0.2"/>
-
-                          <line x1="4.5" y1="6.8" x2="8.5" y2="6.8" stroke="#000080" stroke-width="0.2"/>
-                          <line x1="7.5" y1="4.5" x2="7.5" y2="8.5" stroke="#000080" stroke-width="0.2"/>
-                        </svg>
-                  </span>Hindi</a></li>
-              <li><a class="dropdown-item " href="categories/gujarati/home.html">
-                  <span class="me-2">
-                        <svg width="16" height="13" viewBox="0 0 16 13" xmlns="http://www.w3.org/2000/svg">
-                          <!-- Blue Stripe -->
-                          <rect width="16" height="6.5" fill="#0033A0"/>
-                          <!-- Red Stripe -->
-                          <rect y="6.5" width="16" height="6.5" fill="#D32F2F"/>
-
-                          <!-- Emblem: A white representation of the emblem -->
-                          <circle cx="8" cy="6.5" r="2" fill="#FFFFFF"/>
-                          <path d="M8 5.5l1 1.5h-2l1-1.5zM8 7.5l1-1.5h-2l1 1.5z" fill="#0033A0"/>
-                        </svg>
-                  </span>Gujarati
-              </a></li>
+              {% for lang in languages %}
+                  <li><a class="dropdown-item " href="/{{lang.code }}/">{{lang.name_local}}</a></li>
+              {% endfor %}
             </ul>
           </div>
         </div>
@@ -121,7 +82,7 @@
                     </svg>
                     <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-success">
                       1
-                      <span class="visually-hidden">unread messages</span>
+                      <span class="visually-hidden">{% translate unread messages %}</span>
                     </span>
                   </a>
                 </div>
@@ -144,7 +105,7 @@
 
           <form action="#">
             <div class="input-group ">
-              <input class="form-control rounded" type="search" placeholder="Search for products">
+              <input class="form-control rounded" type="search" placeholder="{% translate Search for products %}">
               <span class="input-group-append">
                 <button class="btn bg-white border border-start-0 ms-n10 rounded-0 rounded-end" type="button">
                   <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none"
@@ -163,7 +124,7 @@
           <!-- Button trigger modal -->
           <button type="button" class="btn  btn-outline-gray-400 text-muted" data-bs-toggle="modal"
             data-bs-target="#locationModal">
-            <i class="feather-icon icon-map-pin me-2"></i>Location
+            <i class="feather-icon icon-map-pin me-2"></i>{% translate Location %}
           </button>
 
 
@@ -184,7 +145,7 @@
                 </svg>
                 <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-success">
                   5
-                  <span class="visually-hidden">unread messages</span>
+                  <span class="visually-hidden">{% translate unread messages %}</span>
                 </span>
               </a></div>
             <div class="list-inline-item">
@@ -210,7 +171,7 @@
                 </svg>
                 <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-success">
                   1
-                  <span class="visually-hidden">unread messages</span>
+                  <span class="visually-hidden">{% translate unread messages %}</span>
                 </span>
               </a>
 
@@ -251,7 +212,7 @@
             <div class="mt-2">
               <button type="button" class="btn  btn-outline-gray-400 text-muted w-100 " data-bs-toggle="modal"
                 data-bs-target="#locationModal">
-                <i class="feather-icon icon-map-pin me-2"></i>Pick Location
+                <i class="feather-icon icon-map-pin me-2"></i>{% translate Pick Location %}
               </button>
             </div>
           </div>
