@@ -5,32 +5,12 @@
   <div class="bg-light py-1">
     <div class="container">
       <div class="row">
-        <div class="col-md-6 col-12 text-center text-md-start"><span> {% translate Super Value Deals - Save more with %}
-            coupons</span>
+        <div class="col-md-6 col-12 text-center text-md-start"><span> {% translate "Super Value Deals - Save more with coupons"  %}</span>
         </div>
         <div class="col-6 text-end d-none d-md-block">
           <div class="dropdown">
-            <a class="dropdown-toggle text-decoration-none  text-muted" href="/en-us/" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-              <span class="me-1">
-                <svg width="16" height="13" viewBox="0 0 16 13" fill="none" xmlns="http://www.w3.org/2000/svg">
-                  <g clip-path="url(#selectedlang)">
-                    <path d="M0 0.5H16V12.5H0V0.5Z" fill="#012169" />
-                    <path
-                      d="M1.875 0.5L7.975 5.025L14.05 0.5H16V2.05L10 6.525L16 10.975V12.5H14L8 8.025L2.025 12.5H0V11L5.975 6.55L0 2.1V0.5H1.875Z"
-                      fill="white" />
-                    <path
-                      d="M10.6 7.525L16 11.5V12.5L9.225 7.525H10.6ZM6 8.025L6.15 8.9L1.35 12.5H0L6 8.025ZM16 0.5V0.575L9.775 5.275L9.825 4.175L14.75 0.5H16ZM0 0.5L5.975 4.9H4.475L0 1.55V0.5Z"
-                      fill="#C8102E" />
-                    <path d="M6.025 0.5V12.5H10.025V0.5H6.025ZM0 4.5V8.5H16V4.5H0Z" fill="white" />
-                    <path d="M0 5.325V7.725H16V5.325H0ZM6.825 0.5V12.5H9.225V0.5H6.825Z" fill="#C8102E" />
-                  </g>
-                  <defs>
-                    <clipPath id="selectedlang">
-                      <rect width="16" height="12" fill="white" transform="translate(0 0.5)" />
-                    </clipPath>
-                  </defs>
-                </svg>
-              </span>English
+            <a class="dropdown-toggle text-decoration-none  text-muted" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="true">
+             Language
             </a>
             <ul class="dropdown-menu">
               {% get_current_language as LANGUAGE_CODE %}
@@ -81,8 +61,8 @@
                       <path d="M16 10a4 4 0 0 1-8 0"></path>
                     </svg>
                     <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-success">
-                      1
-                      <span class="visually-hidden">{% translate unread messages %}</span>
+                      {% translate "1" %}
+                     <span class="visually-hidden">{% translate "unread messages" %}</span>
                     </span>
                   </a>
                 </div>
@@ -105,7 +85,7 @@
 
           <form action="#">
             <div class="input-group ">
-              <input class="form-control rounded" type="search" placeholder="{% translate Search for products %}">
+              <input class="form-control rounded" type="search" placeholder="{% translate 'Search for products' %}">
               <span class="input-group-append">
                 <button class="btn bg-white border border-start-0 ms-n10 rounded-0 rounded-end" type="button">
                   <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none"
@@ -124,7 +104,7 @@
           <!-- Button trigger modal -->
           <button type="button" class="btn  btn-outline-gray-400 text-muted" data-bs-toggle="modal"
             data-bs-target="#locationModal">
-            <i class="feather-icon icon-map-pin me-2"></i>{% translate Location %}
+            <i class="feather-icon icon-map-pin me-2"></i>{% translate "Location" %}
           </button>
 
 
@@ -145,7 +125,7 @@
                 </svg>
                 <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-success">
                   5
-                  <span class="visually-hidden">{% translate unread messages %}</span>
+                  <span class="visually-hidden">{% translate "unread messages" %}</span>
                 </span>
               </a></div>
             <div class="list-inline-item">
@@ -171,7 +151,7 @@
                 </svg>
                 <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-success">
                   1
-                  <span class="visually-hidden">{% translate unread messages %}</span>
+                  <span class="visually-hidden">{% translate "unread messages" %}</span>
                 </span>
               </a>
 
@@ -196,7 +176,7 @@
           <div class="d-block d-lg-none mb-4">
             <form action="#">
               <div class="input-group ">
-                <input class="form-control rounded" type="search" placeholder="Search for products">
+                <input class="form-control rounded" type="search" placeholder="{% translate 'Search for products' %}">
                 <span class="input-group-append">
                   <button class="btn bg-white border border-start-0 ms-n10 rounded-0 rounded-end" type="button">
                     <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none"
@@ -212,7 +192,7 @@
             <div class="mt-2">
               <button type="button" class="btn  btn-outline-gray-400 text-muted w-100 " data-bs-toggle="modal"
                 data-bs-target="#locationModal">
-                <i class="feather-icon icon-map-pin me-2"></i>{% translate Pick Location %}
+                <i class="feather-icon icon-map-pin me-2"></i>{% translate "Pick Location" %}
               </button>
             </div>
           </div>
@@ -226,18 +206,18 @@
                   <rect x="14" y="3" width="7" height="7"></rect>
                   <rect x="14" y="14" width="7" height="7"></rect>
                   <rect x="3" y="14" width="7" height="7"></rect>
-                </svg></span> All Departments
+                </svg></span> {% translate "All Departments" %}
             </a>
             <div class="collapse mt-2" id="collapseExample">
               <div class="card card-body">
                 <ul class="mb-0 list-unstyled">
-                  <li><a class="dropdown-item" href="../../pages/shop-grid.html">Dairy, Bread & Eggs</a></li>
-                  <li><a class="dropdown-item" href="../../pages/shop-grid.html">Snacks & Munchies</a></li>
-                  <li><a class="dropdown-item" href="../../pages/shop-grid.html">Fruits & Vegetables</a></li>
-                  <li><a class="dropdown-item" href="../../pages/shop-grid.html">Cold Drinks & Juices</a></li>
-                  <li><a class="dropdown-item" href="../../pages/shop-grid.html">Breakfast & Instant Food</a></li>
-                  <li><a class="dropdown-item" href="../../pages/shop-grid.html">Bakery & Biscuits</a></li>
-                  <li><a class="dropdown-item" href="../../pages/shop-grid.html">Chicken, Meat & Fish</a></li>
+                  <li><a class="dropdown-item" href="../../pages/shop-grid.html">{% translate "Dairy, Bread & Eggs" %}</a></li>
+                  <li><a class="dropdown-item" href="../../pages/shop-grid.html">{% translate "Snacks & Munchies" %}</a></li>
+                  <li><a class="dropdown-item" href="../../pages/shop-grid.html">{% translate "Fruits & Vegetables" %}</a></li>
+                  <li><a class="dropdown-item" href="../../pages/shop-grid.html">{% translate "Cold Drinks & Juices" %}</a></li>
+                  <li><a class="dropdown-item" href="../../pages/shop-grid.html">{% translate "Breakfast & Instant Food" %}</a></li>
+                  <li><a class="dropdown-item" href="../../pages/shop-grid.html">{% translate "Bakery & Biscuits" %}</a></li>
+                  <li><a class="dropdown-item" href="../../pages/shop-grid.html">{% translate "Chicken, Meat & Fish" %}</a></li>
                 </ul>
               </div>
             </div>
@@ -253,16 +233,16 @@
                   <rect x="14" y="3" width="7" height="7"></rect>
                   <rect x="14" y="14" width="7" height="7"></rect>
                   <rect x="3" y="14" width="7" height="7"></rect>
-                </svg></span> All Departments
+                </svg></span> {% translate "All Departments" %}
             </button>
             <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
-              <li><a class="dropdown-item" href="../../pages/shop-grid.html">Dairy, Bread & Eggs</a></li>
-              <li><a class="dropdown-item" href="../../pages/shop-grid.html">Snacks & Munchies</a></li>
-              <li><a class="dropdown-item" href="../../pages/shop-grid.html">Fruits & Vegetables</a></li>
-              <li><a class="dropdown-item" href="../../pages/shop-grid.html">Cold Drinks & Juices</a></li>
-              <li><a class="dropdown-item" href="../../pages/shop-grid.html">Breakfast & Instant Food</a></li>
-              <li><a class="dropdown-item" href="../../pages/shop-grid.html">Bakery & Biscuits</a></li>
-              <li><a class="dropdown-item" href="../../pages/shop-grid.html">Chicken, Meat & Fish</a></li>
+              <li><a class="dropdown-item" href="../../pages/shop-grid.html">{% translate "Dairy, Bread & Eggs" %}</a></li>
+              <li><a class="dropdown-item" href="../../pages/shop-grid.html">{% translate "Snacks & Munchies" %}</a></li>
+              <li><a class="dropdown-item" href="../../pages/shop-grid.html">{% translate "Fruits & Vegetables" %}</a></li>
+              <li><a class="dropdown-item" href="../../pages/shop-grid.html">{% translate "Cold Drinks & Juices" %}</a></li>
+              <li><a class="dropdown-item" href="../../pages/shop-grid.html">{% translate "Breakfast & Instant Food" %}</a></li>
+              <li><a class="dropdown-item" href="../../pages/shop-grid.html">{% translate "Bakery & Biscuits" %}</a></li>
+              <li><a class="dropdown-item" href="../../pages/shop-grid.html">{% translate "Chicken, Meat & Fish" %}</a></li>
             </ul>
           </div>
           <div class="">
@@ -270,86 +250,86 @@
               <li class="nav-item dropdown w-100 w-lg-auto">
                 <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
                   aria-expanded="false">
-                  Home
+                  {% translate "Home" %}
                 </a>
                 <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="/">Home 1</a></li>
-                  <li><a class="dropdown-item" href="../../pages/index-2.html">Home 2</a></li>
-                  <li><a class="dropdown-item" href="../../pages/index-3.html">Home 3</a></li>
-                  <li><a class="dropdown-item" href="../../pages/index-4.html">Home 4</a></li>
-                  <li><a class="dropdown-item" href="../../pages/index-5.html">Home 5 <span
-                        class="badge bg-light-info text-dark-info ms-1">New</span></a></li>
+                  <li><a class="dropdown-item" href="/">{% translate "Home 1"  %} </a></li>
+                  <li><a class="dropdown-item" href="../../pages/index-2.html">{% translate "Home 2" %}</a></li>
+                  <li><a class="dropdown-item" href="../../pages/index-3.html">{% translate "Home 2" %}</a></li>
+                  <li><a class="dropdown-item" href="../../pages/index-4.html">{% translate "Home 2" %}</a></li>
+                  <li><a class="dropdown-item" href="../../pages/index-5.html">{% translate "Home 2" %}<span
+                        class="badge bg-light-info text-dark-info ms-1">{% translate "New" %}</span></a></li>
                 </ul>
               </li>
               <li class="nav-item dropdown w-100 w-lg-auto">
                 <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
                   aria-expanded="false">
-                  Shop
+                  {% translate "Shop" %}
                 </a>
                 <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="../../pages/shop-grid.html">Shop Grid - Filter</a></li>
-                  <li><a class="dropdown-item" href="../../pages/shop-grid-3-column.html">Shop Grid - 3 column</a>
+                  <li><a class="dropdown-item" href="../../pages/shop-grid.html">{% translate "Shop Grid - Filter" %}</a></li>
+                  <li><a class="dropdown-item" href="../../pages/shop-grid-3-column.html">{% translate "Shop Grid - 3 column" %}</a>
                   </li>
-                  <li><a class="dropdown-item" href="../../pages/shop-list.html">Shop List - Filter</a></li>
-                  <li><a class="dropdown-item" href="../../pages/shop-filter.html">Shop - Filter</a></li>
-                  <li><a class="dropdown-item" href="../../pages/shop-fullwidth.html">Shop Wide</a></li>
-                  <li><a class="dropdown-item" href="../../pages/shop-single.html">Shop Single</a></li>
-                  <li><a class="dropdown-item" href="../../pages/shop-single-2.html">Shop Single v2</a></li>
-                  <li><a class="dropdown-item" href="../../pages/shop-wishlist.html">Shop Wishlist</a></li>
-                  <li><a class="dropdown-item" href="../../pages/shop-cart.html">Shop Cart</a></li>
-                  <li><a class="dropdown-item" href="../../pages/shop-checkout.html">Shop Checkout</a></li>
+                  <li><a class="dropdown-item" href="../../pages/shop-list.html">{% translate "Shop List - Filter" %}</a></li>
+                  <li><a class="dropdown-item" href="../../pages/shop-filter.html">{% translate "Shop - Filter" %}</a></li>
+                  <li><a class="dropdown-item" href="../../pages/shop-fullwidth.html">{% translate "Shop Wide" %}</a></li>
+                  <li><a class="dropdown-item" href="../../pages/shop-single.html">{% translate "Shop Single" %}</a></li>
+                  <li><a class="dropdown-item" href="../../pages/shop-single-2.html">{% translate "Shop Single v2" %}</a></li>
+                  <li><a class="dropdown-item" href="../../pages/shop-wishlist.html">{% translate "Shop Wishlist" %}</a></li>
+                  <li><a class="dropdown-item" href="../../pages/shop-cart.html">{% translate "Shop Cart" %}</a></li>
+                  <li><a class="dropdown-item" href="../../pages/shop-checkout.html">{% translate "Shop Checkout" %}</a></li>
                 </ul>
               </li>
               <li class="nav-item dropdown w-100 w-lg-auto">
                 <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
                   aria-expanded="false">
-                  Stores
+                  {% translate "Stores" %}
                 </a>
                 <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="../../pages/store-list.html">Store List</a></li>
-                  <li><a class="dropdown-item" href="../../pages/store-grid.html">Store Grid</a></li>
-                  <li><a class="dropdown-item" href="../../pages/store-single.html">Store Single</a></li>
+                  <li><a class="dropdown-item" href="../../pages/store-list.html">{% translate "Store List" %}</a></li>
+                  <li><a class="dropdown-item" href="../../pages/store-grid.html">{% translate "Store Grid" %}</a></li>
+                  <li><a class="dropdown-item" href="../../pages/store-single.html">{% translate "Store Single" %}</a></li>
                 </ul>
               </li>
               <li class="nav-item dropdown w-100 w-lg-auto dropdown-fullwidth">
                 <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
                   aria-expanded="false">
-                  Mega menu
+                  {% translate "Mega menu" %}
                 </a>
                 <div class=" dropdown-menu pb-0">
                   <div class="row p-2 p-lg-4">
                     <div class="col-lg-3 col-6 mb-4 mb-lg-0">
-                      <h6 class="text-primary ps-3">Dairy, Bread & Eggs</h6>
-                      <a class="dropdown-item" href="../../pages/shop-grid.html">Butter</a>
-                      <a class="dropdown-item" href="../../pages/shop-grid.html">Milk Drinks</a>
-                      <a class="dropdown-item" href="../../pages/shop-grid.html">Curd & Yogurt</a>
-                      <a class="dropdown-item" href="../../pages/shop-grid.html">Eggs</a>
-                      <a class="dropdown-item" href="../../pages/shop-grid.html">Buns & Bakery</a>
-                      <a class="dropdown-item" href="../../pages/shop-grid.html">Cheese</a>
-                      <a class="dropdown-item" href="../../pages/shop-grid.html">Condensed Milk</a>
-                      <a class="dropdown-item" href="../../pages/shop-grid.html">Dairy Products</a>
+                      <h6 class="text-primary ps-3">{% translate "Dairy, Bread & Eggs" %}</h6>
+                      <a class="dropdown-item" href="../../pages/shop-grid.html">{% translate "Butter" %}</a>
+                      <a class="dropdown-item" href="../../pages/shop-grid.html">{% translate "Milk Drinks" %}</a>
+                      <a class="dropdown-item" href="../../pages/shop-grid.html">{% translate "Curd & Yogurt" %}</a>
+                      <a class="dropdown-item" href="../../pages/shop-grid.html">{% translate "Eggs" %}</a>
+                      <a class="dropdown-item" href="../../pages/shop-grid.html">{% translate "Buns & Bakery" %}</a>
+                      <a class="dropdown-item" href="../../pages/shop-grid.html">{% translate "Cheese" %}</a>
+                      <a class="dropdown-item" href="../../pages/shop-grid.html">{% translate "Condensed Milk" %}</a>
+                      <a class="dropdown-item" href="../../pages/shop-grid.html">{% translate "Dairy Products" %}</a>
                     </div>
                     <div class="col-lg-3 col-6 mb-4 mb-lg-0">
-                      <h6 class="text-primary ps-3">Breakfast & Instant Food</h6>
-                      <a class="dropdown-item" href="../../pages/shop-grid.html">Breakfast Cereal</a>
-                      <a class="dropdown-item" href="../../pages/shop-grid.html"> Noodles, Pasta & Soup</a>
-                      <a class="dropdown-item" href="../../pages/shop-grid.html">Frozen Veg Snacks</a>
-                      <a class="dropdown-item" href="../../pages/shop-grid.html"> Frozen Non-Veg Snacks</a>
-                      <a class="dropdown-item" href="../../pages/shop-grid.html"> Vermicelli</a>
-                      <a class="dropdown-item" href="../../pages/shop-grid.html"> Instant Mixes</a>
-                      <a class="dropdown-item" href="../../pages/shop-grid.html"> Batter</a>
-                      <a class="dropdown-item" href="../../pages/shop-grid.html"> Fruit and Juices</a>
+                      <h6 class="text-primary ps-3">{% translate "Breakfast & Instant Food" %}</h6>
+                      <a class="dropdown-item" href="../../pages/shop-grid.html">{% translate "Breakfast Cereal" %}</a>
+                      <a class="dropdown-item" href="../../pages/shop-grid.html">{% translate "Noodles, Pasta & Soup" %}</a>
+                      <a class="dropdown-item" href="../../pages/shop-grid.html">{% translate "Frozen Veg Snacks" %}</a>
+                      <a class="dropdown-item" href="../../pages/shop-grid.html">{% translate "Frozen Non-Veg Snacks" %}</a>
+                      <a class="dropdown-item" href="../../pages/shop-grid.html">{% translate "Vermicelli" %}</a>
+                      <a class="dropdown-item" href="../../pages/shop-grid.html">{% translate "Instant Mixes" %}</a>
+                      <a class="dropdown-item" href="../../pages/shop-grid.html">{% translate "Butter" %}</a>
+                      <a class="dropdown-item" href="../../pages/shop-grid.html">{% translate "Fruit and Juices" %}</a>
                     </div>
                     <div class="col-lg-3 col-12 mb-4 mb-lg-0">
-                      <h6 class="text-primary ps-3">Cold Drinks & Juices</h6>
-                      <a class="dropdown-item" href="../../pages/shop-grid.html">Soft Drinks</a>
-                      <a class="dropdown-item" href="../../pages/shop-grid.html">Fruit Juices</a>
-                      <a class="dropdown-item" href="../../pages/shop-grid.html">Coldpress</a>
-                      <a class="dropdown-item" href="../../pages/shop-grid.html">Water & Ice Cubes</a>
-                      <a class="dropdown-item" href="../../pages/shop-grid.html">Soda & Mixers</a>
-                      <a class="dropdown-item" href="../../pages/shop-grid.html">Health Drinks</a>
-                      <a class="dropdown-item" href="../../pages/shop-grid.html">Herbal Drinks</a>
-                      <a class="dropdown-item" href="../../pages/shop-grid.html">Milk Drinks</a>
+                      <h6 class="text-primary ps-3">{% translate "Cold Drinks & Juices" %}</h6>
+                      <a class="dropdown-item" href="../../pages/shop-grid.html">{% translate "Soft Drinks" %}</a>
+                      <a class="dropdown-item" href="../../pages/shop-grid.html">{% translate "Fruit Juices" %}</a>
+                      <a class="dropdown-item" href="../../pages/shop-grid.html">{% translate "Coldpress" %}</a>
+                      <a class="dropdown-item" href="../../pages/shop-grid.html">{% translate "Water & Ice Cubes" %}</a>
+                      <a class="dropdown-item" href="../../pages/shop-grid.html">{% translate "Soda & Mixers" %}</a>
+                      <a class="dropdown-item" href="../../pages/shop-grid.html">{% translate "Health Drinks" %}</a>
+                      <a class="dropdown-item" href="../../pages/shop-grid.html">{% translate "Herbal Drinks" %}</a>
+                      <a class="dropdown-item" href="../../pages/shop-grid.html">{% translate "Milk Drinks" %}</a>
                     </div>
                     <div class="col-lg-3 col-12 mb-4 mb-lg-0">
                       <div class="card border-0">
