@@ -1,10 +1,11 @@
 {% load static %}
+{% load i18n %}
 <!-- Popular Products Start-->
  <section class="my-lg-14 my-8">
     <div class="container">
        <div class="row">
           <div class="col-12 mb-6">
-             <h3 class="mb-0">Popular Products</h3>
+             <h3 class="mb-0">{% translate "Popular Products" %}</h3>
           </div>
        </div>
 
@@ -15,7 +16,7 @@
                 <div class="card-body">
                    <div class="text-center position-relative">
                       <div class="position-absolute top-0 start-0">
-                         <span class="badge bg-danger">Sale</span>
+                         <span class="badge bg-danger">{% translate "Sale" %}</span>
                       </div>
                       <a href="#!"><img
                             src= "{% static product.image %}"

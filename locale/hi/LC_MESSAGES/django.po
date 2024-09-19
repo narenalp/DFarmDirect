@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-09-18 07:39+0530\n"
+"POT-Creation-Date: 2024-09-18 23:02+0530\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -26,17 +26,618 @@ msgstr ""
 msgid "Hindi"
 msgstr ""
 
+#: .\categories\templates\categories\category.html:8
+msgid "Featured Categories"
+msgstr "विशेष श्रेणियाँ"
+
+#: .\categories\templates\categories\footer.html:8
+#, fuzzy
+#| msgid "Blog Category"
+msgid "Categories"
+msgstr "ब्लॉग श्रेणी"
+
+#: .\categories\templates\categories\footer.html:13
+msgid "Vegetables & Fruits"
+msgstr "सब्जियां और फल"
+
+#: .\categories\templates\categories\footer.html:14
+msgid "Breakfast & instant food"
+msgstr "कोल्ड ड्रिंक्स और जूस"
+
+#: .\categories\templates\categories\footer.html:15
+#: .\categories\templates\categories\index.html:335
+#: .\categories\templates\categories\index.html:369
+#: .\categories\templates\categories\navbar.html:219
+#: .\categories\templates\categories\navbar.html:244
+msgid "Bakery & Biscuits"
+msgstr "बेकरी और बिस्कुट"
+
+#: .\categories\templates\categories\footer.html:16
+msgid "Atta, rice & dal"
+msgstr "आटा, चावल और दाल"
+
+#: .\categories\templates\categories\footer.html:17
+msgid "Sauces & spreads"
+msgstr "सॉस और स्प्रेड"
+
+#: .\categories\templates\categories\footer.html:18
+msgid "Organic & gourmet"
+msgstr "जैविक एवं स्वादिष्ट"
+
+#: .\categories\templates\categories\footer.html:19
+msgid "Baby care"
+msgstr "शिशु के देखभाल"
+
+#: .\categories\templates\categories\footer.html:20
+msgid "Cleaning essentials"
+msgstr "सफाई संबंधी आवश्यक वस्तुएं"
+
+#: .\categories\templates\categories\footer.html:21
+msgid "Personal care"
+msgstr "व्यक्तिगत देखभाल"
+
+#: .\categories\templates\categories\footer.html:27
+msgid "Dairy, bread & eggs"
+msgstr "डेयरी, ब्रेड और अंडे"
+
+#: .\categories\templates\categories\footer.html:28
+msgid "Cold drinks & juices"
+msgstr "कोल्ड ड्रिंक्स और जूस"
+
+#: .\categories\templates\categories\footer.html:29
+msgid "Tea, coffee & drinks"
+msgstr "चाय, कॉफी और पेय"
+
+#: .\categories\templates\categories\footer.html:30
+msgid "Masala, oil & more"
+msgstr "मसाला, तेल और अधिक"
+
+#: .\categories\templates\categories\footer.html:31
+msgid "Chicken, meat & fish"
+msgstr "चिकन, मांस और मछली"
+
+#: .\categories\templates\categories\footer.html:32
+msgid "Paan corner"
+msgstr "पान का कोना"
+
+#: .\categories\templates\categories\footer.html:33
+msgid "Pharma & wellness"
+msgstr "फार्मा एवं कल्याण"
+
+#: .\categories\templates\categories\footer.html:34
+msgid "Home & office"
+msgstr "घर कार्यालय"
+
+#: .\categories\templates\categories\footer.html:35
+msgid "Pet care"
+msgstr "पालतू जानवरों की देखभाल"
+
+#: .\categories\templates\categories\footer.html:43
+msgid "Get to know us"
+msgstr "हम के बारे में जानें"
+
+#: .\categories\templates\categories\footer.html:46
+msgid "Company"
+msgstr "कंपनी"
+
+#: .\categories\templates\categories\footer.html:47
+msgid "About"
+msgstr "हमारे बारे में"
+
+#: .\categories\templates\categories\footer.html:48
+#: .\categories\templates\categories\index.html:466
+#: .\categories\templates\categories\navbar.html:353
+msgid "Blog"
+msgstr "ब्लॉग"
+
+#: .\categories\templates\categories\footer.html:49
+msgid "Help Center"
+msgstr "सहायता केंद्र"
+
+#: .\categories\templates\categories\footer.html:50
+msgid "Our Value"
+msgstr "हमारा मूल्य"
+
+#: .\categories\templates\categories\footer.html:54
+msgid "For Consumers"
+msgstr "उपभोक्ताओं के लिए"
+
+#: .\categories\templates\categories\footer.html:57
+msgid "Payments"
+msgstr "सेटिंग्स"
+
+#: .\categories\templates\categories\footer.html:58
+msgid "Shipping"
+msgstr "शिपिंग"
+
+#: .\categories\templates\categories\footer.html:59
+msgid "Product Returns"
+msgstr "उत्पाद वापसी"
+
+#: .\categories\templates\categories\footer.html:60
+msgid "FAQ"
+msgstr "सामान्य प्रश्न"
+
+#: .\categories\templates\categories\footer.html:61
+#: .\categories\templates\categories\index.html:399
+#: .\categories\templates\categories\navbar.html:280
+msgid "Shop Checkout"
+msgstr "दुकान चेकआउट"
+
+#: .\categories\templates\categories\footer.html:65
+#: .\categories\templates\categories\footer.html:69
+msgid "Become a Shopper"
+msgstr "एक खरीदार बनें"
+
+#: .\categories\templates\categories\footer.html:68
+msgid "Shopper Opportunities"
+msgstr "शॉपर अवसर"
+
+#: .\categories\templates\categories\footer.html:70
+msgid "Earnings"
+msgstr "आय"
+
+#: .\categories\templates\categories\footer.html:71
+msgid "Ideas & Guides"
+msgstr "विचार एवं मार्गदर्शिकाएँ"
+
+#: .\categories\templates\categories\footer.html:72
+msgid "New Retailers"
+msgstr "नये खुदरा विक्रेता"
+
+#: .\categories\templates\categories\footer.html:76
+#: .\categories\templates\categories\footer.html:79
+msgid "FarmDirect programs"
+msgstr "फार्मडायरेक्ट कार्यक्रम"
+
+#: .\categories\templates\categories\footer.html:80
+msgid "Gift Cards"
+msgstr "उपहार कार्ड"
+
+#: .\categories\templates\categories\footer.html:81
+msgid "Promos & Coupons"
+msgstr "प्रोमो और कूपन"
+
+#: .\categories\templates\categories\footer.html:82
+msgid "FarmDirect Ads"
+msgstr "फार्मडायरेक्ट कार्यक्रम"
+
+#: .\categories\templates\categories\footer.html:83
+msgid "Careers"
+msgstr "करियर"
+
+#: .\categories\templates\categories\footer.html:93
+msgid "Payment Partners"
+msgstr "सेटिंग्स"
+
+#: .\categories\templates\categories\footer.html:113
+msgid "Get deliveries with FarmDirect"
+msgstr "FarmDirect के साथ डिलीवरी प्राप्त करें"
+
 #: .\categories\templates\categories\home.html:10
 msgid "Farmers Direct Market Place"
 msgstr "किसान प्रत्यक्ष बाजार स्थान"
 
+#: .\categories\templates\categories\index.html:56
 #: .\categories\templates\categories\navbar.html:8
 msgid "Super Value Deals - Save more with coupons"
 msgstr "सुपर वैल्यू डील्स - कूपन के साथ अधिक बचत करें"
 
+#: .\categories\templates\categories\index.html:330
+#: .\categories\templates\categories\index.html:364
+#: .\categories\templates\categories\index.html:415
+#: .\categories\templates\categories\navbar.html:214
+#: .\categories\templates\categories\navbar.html:239
+#: .\categories\templates\categories\navbar.html:302
+msgid "Dairy, Bread & Eggs"
+msgstr "डेयरी, ब्रेड और अंडे"
+
+#: .\categories\templates\categories\index.html:331
+#: .\categories\templates\categories\index.html:365
+#: .\categories\templates\categories\navbar.html:215
+#: .\categories\templates\categories\navbar.html:240
+msgid "Snacks & Munchies"
+msgstr "स्नैक्स और मंचीज़"
+
+#: .\categories\templates\categories\index.html:332
+#: .\categories\templates\categories\index.html:366
+#: .\categories\templates\categories\navbar.html:216
+#: .\categories\templates\categories\navbar.html:241
+msgid "Fruits & Vegetables"
+msgstr "फल सब्जियां"
+
+#: .\categories\templates\categories\index.html:333
+#: .\categories\templates\categories\index.html:367
+#: .\categories\templates\categories\index.html:437
+#: .\categories\templates\categories\navbar.html:217
+#: .\categories\templates\categories\navbar.html:242
+#: .\categories\templates\categories\navbar.html:324
+msgid "Cold Drinks & Juices"
+msgstr "कोल्ड ड्रिंक्स और जूस"
+
+#: .\categories\templates\categories\index.html:334
+#: .\categories\templates\categories\index.html:368
+#: .\categories\templates\categories\index.html:426
+#: .\categories\templates\categories\navbar.html:218
+#: .\categories\templates\categories\navbar.html:243
+#: .\categories\templates\categories\navbar.html:313
+msgid "Breakfast & Instant Food"
+msgstr "कोल्ड ड्रिंक्स और जूस"
+
+#: .\categories\templates\categories\index.html:336
+#: .\categories\templates\categories\index.html:370
+#: .\categories\templates\categories\navbar.html:220
+#: .\categories\templates\categories\navbar.html:245
+msgid "Chicken, Meat & Fish"
+msgstr "चिकन, मांस और मछली"
+
+#: .\categories\templates\categories\index.html:378
+#: .\categories\templates\categories\navbar.html:256
+msgid "Home 1"
+msgstr "घर 1"
+
+#: .\categories\templates\categories\index.html:379
+#: .\categories\templates\categories\navbar.html:257
+#: .\categories\templates\categories\navbar.html:258
+#: .\categories\templates\categories\navbar.html:259
+#: .\categories\templates\categories\navbar.html:260
+msgid "Home 2"
+msgstr "घर 2"
+
+#: .\categories\templates\categories\index.html:380
+#, fuzzy
+#| msgid "Home 1"
+msgid "Home 3"
+msgstr "घर 1"
+
+#: .\categories\templates\categories\index.html:381
+msgid "Home 4"
+msgstr "घर 4"
+
+#: .\categories\templates\categories\index.html:383
+msgid "Home 5"
+msgstr "घर 5"
+
+#: .\categories\templates\categories\index.html:390
+#: .\categories\templates\categories\navbar.html:270
+msgid "Shop Grid - Filter"
+msgstr "शॉप ग्रिड - फ़िल्टर"
+
+#: .\categories\templates\categories\index.html:391
+#: .\categories\templates\categories\navbar.html:271
+msgid "Shop Grid - 3 column"
+msgstr "दुकान ग्रिड - 3 कॉलम"
+
+#: .\categories\templates\categories\index.html:392
+#: .\categories\templates\categories\navbar.html:273
+msgid "Shop List - Filter"
+msgstr "दुकान सूची - फ़िल्टर"
+
+#: .\categories\templates\categories\index.html:393
+#: .\categories\templates\categories\navbar.html:274
+msgid "Shop - Filter"
+msgstr "दुकान सूची - फ़िल्टर"
+
+#: .\categories\templates\categories\index.html:394
+#: .\categories\templates\categories\navbar.html:275
+msgid "Shop Wide"
+msgstr "व्यापक रूप से खरीदारी करें"
+
+#: .\categories\templates\categories\index.html:395
+#: .\categories\templates\categories\navbar.html:276
+msgid "Shop Single"
+msgstr "एकल खरीदारी करें"
+
+#: .\categories\templates\categories\index.html:396
+#: .\categories\templates\categories\navbar.html:277
+msgid "Shop Single v2"
+msgstr "शॉप सिंगल v2"
+
+#: .\categories\templates\categories\index.html:397
+#: .\categories\templates\categories\navbar.html:278
+msgid "Shop Wishlist"
+msgstr "दुकान इच्छा सूची"
+
+#: .\categories\templates\categories\index.html:398
+#: .\categories\templates\categories\index.html:584
+#: .\categories\templates\categories\navbar.html:279
+msgid "Shop Cart"
+msgstr "शॉप कार्ट"
+
+#: .\categories\templates\categories\index.html:405
+#: .\categories\templates\categories\navbar.html:289
+msgid "Store List"
+msgstr "स्टोर सूची"
+
+#: .\categories\templates\categories\index.html:406
+#: .\categories\templates\categories\navbar.html:290
+msgid "Store Grid"
+msgstr "स्टोर ग्रिड"
+
+#: .\categories\templates\categories\index.html:407
+#: .\categories\templates\categories\navbar.html:291
+msgid "Store Single"
+msgstr "स्टोर सिंगल"
+
+#: .\categories\templates\categories\index.html:416
+#: .\categories\templates\categories\index.html:433
+#: .\categories\templates\categories\navbar.html:303
+#: .\categories\templates\categories\navbar.html:320
+msgid "Butter"
+msgstr "मक्खन"
+
+#: .\categories\templates\categories\index.html:417
+#: .\categories\templates\categories\index.html:445
+#: .\categories\templates\categories\navbar.html:304
+#: .\categories\templates\categories\navbar.html:332
+msgid "Milk Drinks"
+msgstr "दूध पेय"
+
+#: .\categories\templates\categories\index.html:418
+#: .\categories\templates\categories\navbar.html:305
+msgid "Curd & Yogurt"
+msgstr "दही और योगर्ट"
+
+#: .\categories\templates\categories\index.html:419
+#: .\categories\templates\categories\navbar.html:306
+msgid "Eggs"
+msgstr "अंडे"
+
+#: .\categories\templates\categories\index.html:420
+#: .\categories\templates\categories\navbar.html:307
+msgid "Buns & Bakery"
+msgstr "बन्स और बेकरी"
+
+#: .\categories\templates\categories\index.html:421
+#: .\categories\templates\categories\navbar.html:308
+msgid "Cheese"
+msgstr "पनीर"
+
+#: .\categories\templates\categories\index.html:422
+#: .\categories\templates\categories\navbar.html:309
+msgid "Condensed Milk"
+msgstr "गाढ़ा दूध"
+
+#: .\categories\templates\categories\index.html:423
+#: .\categories\templates\categories\navbar.html:310
+msgid "Dairy Products"
+msgstr "डेयरी उत्पादों"
+
+#: .\categories\templates\categories\index.html:427
+#: .\categories\templates\categories\navbar.html:314
+msgid "Breakfast Cereal"
+msgstr "नाश्ते का अनाज"
+
+#: .\categories\templates\categories\index.html:428
+#: .\categories\templates\categories\navbar.html:315
+msgid "Noodles, Pasta & Soup"
+msgstr "नूडल्स, पास्ता और सूप"
+
+#: .\categories\templates\categories\index.html:429
+#: .\categories\templates\categories\navbar.html:316
+msgid "Frozen Veg Snacks"
+msgstr "जमे हुए शाकाहारी स्नैक्स"
+
+#: .\categories\templates\categories\index.html:430
+#: .\categories\templates\categories\navbar.html:317
+msgid "Frozen Non-Veg Snacks"
+msgstr "जमे हुए नॉन-वेज स्नैक्स"
+
+#: .\categories\templates\categories\index.html:431
+#: .\categories\templates\categories\navbar.html:318
+msgid "Vermicelli"
+msgstr "सेवई"
+
+#: .\categories\templates\categories\index.html:432
+#: .\categories\templates\categories\navbar.html:319
+msgid "Instant Mixes"
+msgstr "त्वरित मिश्रण"
+
+#: .\categories\templates\categories\index.html:434
+#: .\categories\templates\categories\navbar.html:321
+msgid "Fruit and Juices"
+msgstr "फल और जूस"
+
+#: .\categories\templates\categories\index.html:438
+#: .\categories\templates\categories\navbar.html:325
+msgid "Soft Drinks"
+msgstr "शीतल पेय"
+
+#: .\categories\templates\categories\index.html:439
+#: .\categories\templates\categories\navbar.html:326
+msgid "Fruit Juices"
+msgstr "फलों का रस"
+
+#: .\categories\templates\categories\index.html:440
+#: .\categories\templates\categories\navbar.html:327
+msgid "Coldpress"
+msgstr "कोल्डप्रेस"
+
+#: .\categories\templates\categories\index.html:441
+#: .\categories\templates\categories\navbar.html:328
+msgid "Water & Ice Cubes"
+msgstr "पानी और बर्फ के टुकड़े"
+
+#: .\categories\templates\categories\index.html:442
+#: .\categories\templates\categories\navbar.html:329
+msgid "Soda & Mixers"
+msgstr "सोडा और मिक्सर"
+
+#: .\categories\templates\categories\index.html:443
+#: .\categories\templates\categories\navbar.html:330
+msgid "Health Drinks"
+msgstr "दूध पेय"
+
+#: .\categories\templates\categories\index.html:444
+#: .\categories\templates\categories\navbar.html:331
+msgid "Herbal Drinks"
+msgstr "हर्बल पेय"
+
+#: .\categories\templates\categories\index.html:456
+msgid "Shop Now"
+msgstr "अभी खरीदें"
+
+#: .\categories\templates\categories\index.html:467
+#: .\categories\templates\categories\navbar.html:354
+msgid "Blog Single"
+msgstr "ब्लॉग एकल"
+
+#: .\categories\templates\categories\index.html:468
+#: .\categories\templates\categories\navbar.html:355
+msgid "Blog Category"
+msgstr "ब्लॉग श्रेणी"
+
+#: .\categories\templates\categories\index.html:469
+#: .\categories\templates\categories\navbar.html:356
+msgid "About us"
+msgstr "हमारे बारे में"
+
+#: .\categories\templates\categories\index.html:470
+#: .\categories\templates\categories\navbar.html:357
+msgid "404 Error"
+msgstr "404 त्रुटि"
+
+#: .\categories\templates\categories\index.html:471
+#: .\categories\templates\categories\navbar.html:358
+msgid "Contact"
+msgstr "संपर्क"
+
+#: .\categories\templates\categories\index.html:477
+#: .\categories\templates\categories\login.html:33
+#: .\categories\templates\categories\navbar.html:367
+msgid "Sign in"
+msgstr "खाता"
+
+#: .\categories\templates\categories\index.html:478
+#: .\categories\templates\categories\navbar.html:368
+msgid "Signup"
+msgstr "साइन अप करें"
+
+#: .\categories\templates\categories\index.html:479
+#: .\categories\templates\categories\navbar.html:369
+msgid "Forgot Password"
+msgstr "पासवर्ड भूल गए"
+
+#: .\categories\templates\categories\index.html:481
+#: .\categories\templates\categories\navbar.html:372
+msgid "My Account"
+msgstr "पासवर्ड भूल गए"
+
+#: .\categories\templates\categories\index.html:483
+#: .\categories\templates\categories\navbar.html:375
+msgid "Orders"
+msgstr "आदेश"
+
+#: .\categories\templates\categories\index.html:484
+#: .\categories\templates\categories\navbar.html:376
+msgid "Settings"
+msgstr "सेटिंग्स"
+
+#: .\categories\templates\categories\index.html:485
+#: .\categories\templates\categories\navbar.html:377
+msgid "Address"
+msgstr "पता"
+
+#: .\categories\templates\categories\index.html:486
+#: .\categories\templates\categories\navbar.html:378
+msgid "Payment Method"
+msgstr "सेटिंग्स"
+
+#: .\categories\templates\categories\index.html:487
+#: .\categories\templates\categories\navbar.html:380
+msgid "Notification"
+msgstr "अधिसूचना"
+
+#: .\categories\templates\categories\index.html:493
+#: .\categories\templates\categories\navbar.html:387
+msgid "Dashboard"
+msgstr "डैशबोर्ड"
+
+#: .\categories\templates\categories\index.html:507
+#: .\categories\templates\categories\navbar.html:407
+msgid "Documentations"
+msgstr "प्रलेखन"
+
+#: .\categories\templates\categories\index.html:508
+#: .\categories\templates\categories\navbar.html:409
+msgid "Browse the all documentation"
+msgstr "सभी दस्तावेज़ ब्राउज़ करें"
+
+#: .\categories\templates\categories\index.html:585
+msgid "Location in 382480"
+msgstr "स्थान 382480"
+
+#: .\categories\templates\categories\index.html:593
+msgid "You’ve got FREE delivery. Start"
+msgstr "आपको मुफ़्त डिलीवरी मिलेगी। शुरू करें"
+
+#: .\categories\templates\categories\location.html:31
+msgid "Anand"
+msgstr "आनंद"
+
+#: .\categories\templates\categories\location.html:34
+msgid "Ahmedabad"
+msgstr "अहमदाबाद"
+
+#: .\categories\templates\categories\location.html:37
+msgid "Vadodra"
+msgstr "वडोदरा"
+
+#: .\categories\templates\categories\location.html:40
+msgid "Nadiad"
+msgstr "नाडियाड"
+
+#: .\categories\templates\categories\location.html:43
+msgid "Surat"
+msgstr "सूरत"
+
+#: .\categories\templates\categories\location.html:46
+msgid "Bharuch"
+msgstr "भरूच"
+
+#: .\categories\templates\categories\location.html:49
+msgid "Valsad"
+msgstr "वलसाड"
+
+#: .\categories\templates\categories\location.html:52
+msgid "Rajkot"
+msgstr "राजकोट"
+
+#: .\categories\templates\categories\location.html:55
+msgid "Junagadh"
+msgstr "जूनागढ़"
+
+#: .\categories\templates\categories\location.html:58
+msgid "Gandhinagar"
+msgstr "गांधीनगर"
+
+#: .\categories\templates\categories\login.html:13
+msgid "Name"
+msgstr "नाम"
+
+#: .\categories\templates\categories\login.html:17
+msgid "Email address"
+msgstr "मेल पता"
+
+#: .\categories\templates\categories\login.html:22
+msgid "Password"
+msgstr "पासवर्ड"
+
+#: .\categories\templates\categories\login.html:24
+msgid "By Signup, you agree to our"
+msgstr "साइनअप करके, आप हमारी शर्तों से सहमत होते हैं"
+
+#: .\categories\templates\categories\login.html:24
+msgid "Terms of Service"
+msgstr "सेवा की शर्तें"
+
+#: .\categories\templates\categories\login.html:28
+msgid "Sign Up"
+msgstr "साइन अप करें"
+
 #: .\categories\templates\categories\navbar.html:64
 msgid "1"
-msgstr ""
+msgstr "1"
 
 #: .\categories\templates\categories\navbar.html:65
 #: .\categories\templates\categories\navbar.html:128
@@ -62,58 +663,9 @@ msgstr "स्थान चुनें"
 msgid "All Departments"
 msgstr "सभी विभाग"
 
-#: .\categories\templates\categories\navbar.html:214
-#: .\categories\templates\categories\navbar.html:239
-#: .\categories\templates\categories\navbar.html:302
-msgid "Dairy, Bread & Eggs"
-msgstr "डेयरी, ब्रेड और अंडे"
-
-#: .\categories\templates\categories\navbar.html:215
-#: .\categories\templates\categories\navbar.html:240
-msgid "Snacks & Munchies"
-msgstr "स्नैक्स और मंचीज़"
-
-#: .\categories\templates\categories\navbar.html:216
-#: .\categories\templates\categories\navbar.html:241
-msgid "Fruits & Vegetables"
-msgstr "फल सब्जियां"
-
-#: .\categories\templates\categories\navbar.html:217
-#: .\categories\templates\categories\navbar.html:242
-#: .\categories\templates\categories\navbar.html:324
-msgid "Cold Drinks & Juices"
-msgstr "कोल्ड ड्रिंक्स और जूस"
-
-#: .\categories\templates\categories\navbar.html:218
-#: .\categories\templates\categories\navbar.html:243
-#: .\categories\templates\categories\navbar.html:313
-msgid "Breakfast & Instant Food"
-msgstr "कोल्ड ड्रिंक्स और जूस"
-
-#: .\categories\templates\categories\navbar.html:219
-#: .\categories\templates\categories\navbar.html:244
-msgid "Bakery & Biscuits"
-msgstr "बेकरी और बिस्कुट"
-
-#: .\categories\templates\categories\navbar.html:220
-#: .\categories\templates\categories\navbar.html:245
-msgid "Chicken, Meat & Fish"
-msgstr "चिकन, मांस और मछली"
-
 #: .\categories\templates\categories\navbar.html:253
 msgid "Home"
 msgstr "घर"
-
-#: .\categories\templates\categories\navbar.html:256
-msgid "Home 1"
-msgstr "घर 1"
-
-#: .\categories\templates\categories\navbar.html:257
-#: .\categories\templates\categories\navbar.html:258
-#: .\categories\templates\categories\navbar.html:259
-#: .\categories\templates\categories\navbar.html:260
-msgid "Home 2"
-msgstr "घर 2"
 
 #: .\categories\templates\categories\navbar.html:261
 msgid "New"
@@ -123,166 +675,46 @@ msgstr "नया"
 msgid "Shop"
 msgstr "दुकान"
 
-#: .\categories\templates\categories\navbar.html:270
-msgid "Shop Grid - Filter"
-msgstr "शॉप ग्रिड - फ़िल्टर"
-
-#: .\categories\templates\categories\navbar.html:271
-msgid "Shop Grid - 3 column"
-msgstr "दुकान ग्रिड - 3 कॉलम"
-
-#: .\categories\templates\categories\navbar.html:273
-msgid "Shop List - Filter"
-msgstr "दुकान सूची - फ़िल्टर"
-
-#: .\categories\templates\categories\navbar.html:274
-msgid "Shop - Filter"
-msgstr "दुकान सूची - फ़िल्टर"
-
-#: .\categories\templates\categories\navbar.html:275
-#, fuzzy
-#| msgid "Shop"
-msgid "Shop Wide"
-msgstr "दुकान"
-
-#: .\categories\templates\categories\navbar.html:276
-msgid "Shop Single"
-msgstr "एकल खरीदारी करें"
-
-#: .\categories\templates\categories\navbar.html:277
-msgid "Shop Single v2"
-msgstr "शॉप सिंगल v2"
-
-#: .\categories\templates\categories\navbar.html:278
-msgid "Shop Wishlist"
-msgstr "दुकान इच्छा सूची"
-
-#: .\categories\templates\categories\navbar.html:279
-#, fuzzy
-#| msgid "Shop"
-msgid "Shop Cart"
-msgstr "दुकान"
-
-#: .\categories\templates\categories\navbar.html:280
-msgid "Shop Checkout"
-msgstr "दुकान चेकआउट"
-
 #: .\categories\templates\categories\navbar.html:286
 msgid "Stores"
 msgstr "स्टोर"
 
-#: .\categories\templates\categories\navbar.html:289
-msgid "Store List"
-msgstr "स्टोर सूची"
-
-#: .\categories\templates\categories\navbar.html:290
-msgid "Store Grid"
-msgstr "स्टोर ग्रिड"
-
-#: .\categories\templates\categories\navbar.html:291
-msgid "Store Single"
-msgstr "स्टोर सिंगल"
-
 #: .\categories\templates\categories\navbar.html:297
 msgid "Mega menu"
-msgstr ""
+msgstr "मेगा मेनू"
 
-#: .\categories\templates\categories\navbar.html:303
-#: .\categories\templates\categories\navbar.html:320
-msgid "Butter"
-msgstr "मक्खन"
+#: .\categories\templates\categories\navbar.html:339
+msgid "Dont miss this"
+msgstr "इसे न चूकें"
 
-#: .\categories\templates\categories\navbar.html:304
-#: .\categories\templates\categories\navbar.html:332
-msgid "Milk Drinks"
-msgstr "दूध पेय"
+#: .\categories\templates\categories\navbar.html:339
+msgid "offer today."
+msgstr "आज ही प्रस्ताव दें."
 
-#: .\categories\templates\categories\navbar.html:305
-msgid "Curd & Yogurt"
-msgstr "दही और योगर्ट"
+#: .\categories\templates\categories\navbar.html:350
+msgid "Pages"
+msgstr "पृष्ठों"
 
-#: .\categories\templates\categories\navbar.html:306
-msgid "Eggs"
-msgstr "अंडे"
+#: .\categories\templates\categories\navbar.html:364
+msgid "Account"
+msgstr "खाता"
 
-#: .\categories\templates\categories\navbar.html:307
-msgid "Buns & Bakery"
-msgstr "बन्स और बेकरी"
+#: .\categories\templates\categories\navbar.html:393
+msgid "Docs"
+msgstr "दस्तावेज़"
 
-#: .\categories\templates\categories\navbar.html:308
-msgid "Cheese"
-msgstr "पनीर"
+#: .\categories\templates\categories\navbar.html:423
+msgid "Changelog"
+msgstr "सभी दस्तावेज़ ब्राउज़ करें"
 
-#: .\categories\templates\categories\navbar.html:309
-msgid "Condensed Milk"
-msgstr "गाढ़ा दूध"
+#: .\categories\templates\categories\navbar.html:425
+msgid "See what's new"
+msgstr "देखें, क्या नया है"
 
-#: .\categories\templates\categories\navbar.html:310
-#, fuzzy
-#| msgid "Search for products"
-msgid "Dairy Products"
-msgstr "उत्पादों की खोज करें"
+#: .\categories\templates\categories\popularproducts.html:8
+msgid "Popular Products"
+msgstr "लोकप्रिय उत्पाद"
 
-#: .\categories\templates\categories\navbar.html:314
-msgid "Breakfast Cereal"
-msgstr "नाश्ते का अनाज"
-
-#: .\categories\templates\categories\navbar.html:315
-msgid "Noodles, Pasta & Soup"
-msgstr "नूडल्स, पास्ता और सूप"
-
-#: .\categories\templates\categories\navbar.html:316
-msgid "Frozen Veg Snacks"
-msgstr "जमे हुए शाकाहारी स्नैक्स"
-
-#: .\categories\templates\categories\navbar.html:317
-msgid "Frozen Non-Veg Snacks"
-msgstr "जमे हुए नॉन-वेज स्नैक्स"
-
-#: .\categories\templates\categories\navbar.html:318
-msgid "Vermicelli"
-msgstr "सेवई"
-
-#: .\categories\templates\categories\navbar.html:319
-msgid "Instant Mixes"
-msgstr "त्वरित मिश्रण"
-
-#: .\categories\templates\categories\navbar.html:321
-msgid "Fruit and Juices"
-msgstr "फल और जूस"
-
-#: .\categories\templates\categories\navbar.html:325
-#, fuzzy
-#| msgid "Milk Drinks"
-msgid "Soft Drinks"
-msgstr "दूध पेय"
-
-#: .\categories\templates\categories\navbar.html:326
-msgid "Fruit Juices"
-msgstr "फलों का रस"
-
-#: .\categories\templates\categories\navbar.html:327
-msgid "Coldpress"
-msgstr "कोल्डप्रेस"
-
-#: .\categories\templates\categories\navbar.html:328
-msgid "Water & Ice Cubes"
-msgstr "पानी और बर्फ के टुकड़े"
-
-#: .\categories\templates\categories\navbar.html:329
-#, fuzzy
-#| msgid "Snacks & Munchies"
-msgid "Soda & Mixers"
-msgstr "स्नैक्स और मंचीज़"
-
-#: .\categories\templates\categories\navbar.html:330
-#, fuzzy
-#| msgid "Milk Drinks"
-msgid "Health Drinks"
-msgstr "दूध पेय"
-
-#: .\categories\templates\categories\navbar.html:331
-#, fuzzy
-#| msgid "Milk Drinks"
-msgid "Herbal Drinks"
-msgstr "दूध पेय"
+#: .\categories\templates\categories\popularproducts.html:19
+msgid "Sale"
+msgstr "बिक्री"
