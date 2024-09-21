@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-09-18 23:02+0530\n"
+"POT-Creation-Date: 2024-09-19 18:18+0530\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -27,6 +27,7 @@ msgid "Hindi"
 msgstr ""
 
 #: .\categories\templates\categories\category.html:8
+#: .\categories\templates\categories\index.html:1008
 msgid "Featured Categories"
 msgstr "विशेष श्रेणियाँ"
 
@@ -47,6 +48,8 @@ msgstr "कोल्ड ड्रिंक्स और जूस"
 #: .\categories\templates\categories\footer.html:15
 #: .\categories\templates\categories\index.html:335
 #: .\categories\templates\categories\index.html:369
+#: .\categories\templates\categories\index.html:1037
+#: .\categories\templates\categories\index.html:1291
 #: .\categories\templates\categories\navbar.html:219
 #: .\categories\templates\categories\navbar.html:244
 msgid "Bakery & Biscuits"
@@ -214,6 +217,10 @@ msgstr "सेटिंग्स"
 msgid "Get deliveries with FarmDirect"
 msgstr "FarmDirect के साथ डिलीवरी प्राप्त करें"
 
+#: .\categories\templates\categories\footer.html:142
+msgid "Follow us on"
+msgstr ""
+
 #: .\categories\templates\categories\home.html:10
 msgid "Farmers Direct Market Place"
 msgstr "किसान प्रत्यक्ष बाजार स्थान"
@@ -226,6 +233,7 @@ msgstr "सुपर वैल्यू डील्स - कूपन के �
 #: .\categories\templates\categories\index.html:330
 #: .\categories\templates\categories\index.html:364
 #: .\categories\templates\categories\index.html:415
+#: .\categories\templates\categories\index.html:1017
 #: .\categories\templates\categories\navbar.html:214
 #: .\categories\templates\categories\navbar.html:239
 #: .\categories\templates\categories\navbar.html:302
@@ -241,6 +249,7 @@ msgstr "स्नैक्स और मंचीज़"
 
 #: .\categories\templates\categories\index.html:332
 #: .\categories\templates\categories\index.html:366
+#: .\categories\templates\categories\index.html:1124
 #: .\categories\templates\categories\navbar.html:216
 #: .\categories\templates\categories\navbar.html:241
 msgid "Fruits & Vegetables"
@@ -266,6 +275,7 @@ msgstr "कोल्ड ड्रिंक्स और जूस"
 
 #: .\categories\templates\categories\index.html:336
 #: .\categories\templates\categories\index.html:370
+#: .\categories\templates\categories\index.html:1088
 #: .\categories\templates\categories\navbar.html:220
 #: .\categories\templates\categories\navbar.html:245
 msgid "Chicken, Meat & Fish"
@@ -474,6 +484,7 @@ msgid "Herbal Drinks"
 msgstr "हर्बल पेय"
 
 #: .\categories\templates\categories\index.html:456
+#: .\categories\templates\categories\index.html:1145
 msgid "Shop Now"
 msgstr "अभी खरीदें"
 
@@ -503,7 +514,7 @@ msgid "Contact"
 msgstr "संपर्क"
 
 #: .\categories\templates\categories\index.html:477
-#: .\categories\templates\categories\login.html:33
+#: .\categories\templates\categories\login.html:35
 #: .\categories\templates\categories\navbar.html:367
 msgid "Sign in"
 msgstr "खाता"
@@ -571,6 +582,92 @@ msgstr "स्थान 382480"
 msgid "You’ve got FREE delivery. Start"
 msgstr "आपको मुफ़्त डिलीवरी मिलेगी। शुरू करें"
 
+#: .\categories\templates\categories\index.html:888
+msgid "Continue Shopping"
+msgstr "खरीदारी जारी रखें"
+
+#: .\categories\templates\categories\index.html:889
+msgid "Update Cart"
+msgstr "कार्ट अपडेट करें"
+
+#: .\categories\templates\categories\index.html:902
+msgid "Choose your Delivery Location"
+msgstr "अपना डिलीवरी स्थान चुनें"
+
+#: .\categories\templates\categories\index.html:903
+msgid "Enter your address and we will specify the offer you area."
+msgstr "अपना पता दर्ज करें और हम आपको प्रस्तावित क्षेत्र बता देंगे।"
+
+#: .\categories\templates\categories\index.html:911
+msgid "Select Location"
+msgstr "स्थान चुनें"
+
+#: .\categories\templates\categories\index.html:912
+msgid "Clear All"
+msgstr "सभी साफ करें"
+
+#: .\categories\templates\categories\index.html:973
+msgid "Opening Sale Discount 50%"
+msgstr "ओपनिंग सेल छूट 50%"
+
+#: .\categories\templates\categories\index.html:975
+msgid "SuperMarket For Fresh Grocery"
+msgstr "ताजा किराने का सामान के लिए सुपरमार्केट"
+
+#: .\categories\templates\categories\index.html:976
+msgid "Introduced a new model for online grocery shopping and convenient home delivery."
+msgstr "ऑनलाइन किराना खरीदारी और सुविधाजनक होम डिलीवरी के लिए एक नया मॉडल पेश किया गया।"
+
+#: .\categories\templates\categories\index.html:985
+msgid "Free Shipping - orders over $100"
+msgstr "मुफ़्त शिपिंग - $100 से ज़्यादा के ऑर्डर पर"
+
+#: .\categories\templates\categories\index.html:992
+msgid "Free Shipping to First-Time Customers Only, After promotions and discounts are applied."
+msgstr "केवल पहली बार के ग्राहकों के लिए निःशुल्क शिपिंग, प्रमोशन और छूट लागू होने के बाद।"
+
+#: .\categories\templates\categories\index.html:1027
+msgid "Snack & Munchies"
+msgstr "स्नैक्स और मंचीज़"
+
+#: .\categories\templates\categories\index.html:1047
+msgid "Instant Food"
+msgstr "तत्काल भोजन"
+
+#: .\categories\templates\categories\index.html:1057
+msgid "Tea, Coffee & Drinks"
+msgstr "चाय, कॉफी और पेय"
+
+#: .\categories\templates\categories\index.html:1067
+msgid "Atta, Rice & Dal"
+msgstr "आटा, चावल और दाल"
+
+#: .\categories\templates\categories\index.html:1078
+msgid "Baby Care"
+msgstr "शिशु के देखभाल"
+
+#: .\categories\templates\categories\index.html:1098
+msgid "Cleaning Essentials"
+msgstr "सफाई संबंधी आवश्यक वस्तुएं"
+
+#: .\categories\templates\categories\index.html:1108
+msgid "Pet Care"
+msgstr "पालतू जानवरों की देखभाल"
+
+#: .\categories\templates\categories\index.html:1139
+msgid "Freshly Baked Buns"
+msgstr "ताज़ा बेक्ड बन्स"
+
+#: .\categories\templates\categories\index.html:1158
+#: .\categories\templates\categories\popularproducts.html:8
+msgid "Popular Products"
+msgstr "लोकप्रिय उत्पाद"
+
+#: .\categories\templates\categories\index.html:1168
+#: .\categories\templates\categories\popularproducts.html:19
+msgid "Sale"
+msgstr "बिक्री"
+
 #: .\categories\templates\categories\location.html:31
 msgid "Anand"
 msgstr "आनंद"
@@ -611,27 +708,27 @@ msgstr "जूनागढ़"
 msgid "Gandhinagar"
 msgstr "गांधीनगर"
 
-#: .\categories\templates\categories\login.html:13
+#: .\categories\templates\categories\login.html:15
 msgid "Name"
 msgstr "नाम"
 
-#: .\categories\templates\categories\login.html:17
+#: .\categories\templates\categories\login.html:19
 msgid "Email address"
 msgstr "मेल पता"
 
-#: .\categories\templates\categories\login.html:22
+#: .\categories\templates\categories\login.html:24
 msgid "Password"
 msgstr "पासवर्ड"
 
-#: .\categories\templates\categories\login.html:24
+#: .\categories\templates\categories\login.html:26
 msgid "By Signup, you agree to our"
 msgstr "साइनअप करके, आप हमारी शर्तों से सहमत होते हैं"
 
-#: .\categories\templates\categories\login.html:24
+#: .\categories\templates\categories\login.html:26
 msgid "Terms of Service"
 msgstr "सेवा की शर्तें"
 
-#: .\categories\templates\categories\login.html:28
+#: .\categories\templates\categories\login.html:30
 msgid "Sign Up"
 msgstr "साइन अप करें"
 
@@ -710,11 +807,3 @@ msgstr "सभी दस्तावेज़ ब्राउज़ करें
 #: .\categories\templates\categories\navbar.html:425
 msgid "See what's new"
 msgstr "देखें, क्या नया है"
-
-#: .\categories\templates\categories\popularproducts.html:8
-msgid "Popular Products"
-msgstr "लोकप्रिय उत्पाद"
-
-#: .\categories\templates\categories\popularproducts.html:19
-msgid "Sale"
-msgstr "बिक्री"
